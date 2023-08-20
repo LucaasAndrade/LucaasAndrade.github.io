@@ -19,7 +19,8 @@
 }
 body {
     background: rgb(2,0,36);
-    /* background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    /* background: linear-gradient(315deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
 }
 .nav-bar{
     display: flex;
@@ -45,17 +46,17 @@ body {
 .nav-links ul li{
     padding: 5px;
     margin: 0px 1.5em;
-    
+
     font-size: 20px;
     list-style: none;
 }
-a{
-    list-style: none;
+.nav-links ul li a{
     text-decoration: none;
+    list-style: none;
 
     font-family: 'Fonte3'
 }
-a:hover {
+.nav-links ul li a:hover {
     transform: scale(1.1, 1.1);
     color: antiquewhite;
 }
