@@ -1,0 +1,44 @@
+*{
+    /* border: solid white 1px; */
+}
+.contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 70vh;
+}
+.container{
+    padding: 30px;
+}
+.ctn-texto{
+    padding: 20px;
+}
+.ctn-texto, p{
+    font-family: 'Fonte2';
+    font-size: 21px;
+
+    padding: 20px;
+}
+.links{
+    justify-content: center;
+    align-items: center;
+}
+.links ul{
+    padding: 20px;
+    list-style: none;
+}
+.links ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 10px
+}
+.links ul li a{
+    text-decoration: none;
+    font-family: 'Fonte2';
+}
+.links ul li a:hover{
+    transform: scale(1.1, 1.1);
+}

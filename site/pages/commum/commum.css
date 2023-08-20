@@ -45,13 +45,17 @@ body {
 .nav-links ul li{
     padding: 5px;
     margin: 0px 1.5em;
-
+    
     font-size: 20px;
     list-style: none;
 }
-.nav-links ul li a{
+a{
     list-style: none;
     text-decoration: none;
 
     font-family: 'Fonte3'
+}
+a:hover {
+    transform: scale(1.1, 1.1);
+    color: antiquewhite;
 }
