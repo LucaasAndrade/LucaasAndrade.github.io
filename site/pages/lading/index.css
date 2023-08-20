@@ -1,0 +1,31 @@
+*{
+    /* border: solid white 1px */
+}
+
+.apresentacao{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* width: 100%; */
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh;
+}
+.ctn-foto{
+    
+}
+.ctn-foto img{
+    height: 20em;
+    border-radius: 15px;
+}
+.ctn-textinho{
+    width: 10px;
+}
+.ctn-textinho, p{
+    width: 20em;
+    font-family: 'Fonte3';
+    font-size: 21px;
+}

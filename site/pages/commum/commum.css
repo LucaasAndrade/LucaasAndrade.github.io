@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Fonte1';
+    src: url('../../assets/fonts/Barlow-Black.ttf');
+}
+@font-face {
+    font-family: 'Fonte2';
+    src: url('../../assets/fonts/Barlow-Bold.ttf');
+}
+@font-face {
+    font-family: 'Fonte3';
+    src: url('../../assets/fonts/Barlow-Medium.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px 0px;
+    color: white;
+    /* border: 1px solid red; */
+}
+body {
+    background: rgb(2,0,36);
+    /* background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+}
+.nav-bar{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.foto-nav{
+
+}
+.foto-nav img{
+    height: 8em;
+    border-radius: 50%;
+}
+.nav-links{
+
+}
+.nav-links ul{
+    display: flex;
+    padding: 10px;
+    margin: 0px 5em;
+}
+.nav-links ul li{
+    padding: 5px;
+    margin: 0px 1.5em;
+
+    font-size: 20px;
+    list-style: none;
+}
+.nav-links ul li a{
+    list-style: none;
+    text-decoration: none;
+
+    font-family: 'Fonte3'
+}
