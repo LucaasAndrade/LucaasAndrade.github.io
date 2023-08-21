@@ -1,0 +1,18 @@
+.curriculo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cv-container{
+    margin: 20px;
+}
+embed{
+    width: 100vh;
+    height: 90vh;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+embed:focus{
+    outline: none;
+}

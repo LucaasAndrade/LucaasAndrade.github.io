@@ -1,12 +1,7 @@
-*{
-    /* border: solid white 1px */
-}
-
 .apresentacao{
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* width: 100%; */
 }
 .container{
     display: flex;
